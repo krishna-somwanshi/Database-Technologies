@@ -1,0 +1,19 @@
+Assignment 2
+
+Introducing Relational Databases.
+
+1) Which field of the Customers table is the primary key?
+
+Ans:- Cnum is the primary key of the Customers table.
+
+2) What is the 4th column of the Customers table?
+
+Ans:- Rating is the 4th column of customers table.
+
+3) What is another word for row? For column?
+Ans:- Another words for row are Tuple, Entity, Opportunity.
+	 Another words for Column are Attribute, Method.
+
+4) Why isn't it possible to see the first five rows of a table?
+Ans:- Yes, it is true that we can not see first five rows of a table. The reason is that when we try to Access the first five rows in relational Databases it will give us the first five memory location.
+	Since it gives us data from first five memory address so we can not determine that output data is from first five rows only. It will gives us output of first five memory locations.
