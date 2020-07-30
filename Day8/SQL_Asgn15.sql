@@ -8,4 +8,4 @@ Ans:- delete from customers where cnum=any (select cnum from orders
 	  where cnum not in (select cnum from customers));
 3) Write a command that increases by twenty percent the commissions of all salespeople with total orders above Rs. 3,000.
 Ans:- update salespeople set comm=comm*1.20
-	  where snum in (select snum from orders where amt>300);
+	  where snum in (select snum from orders where amt>3000);
